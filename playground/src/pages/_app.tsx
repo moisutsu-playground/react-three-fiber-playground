@@ -1,5 +1,5 @@
-import 'src/styles/global.css';
 import 'sanitize.css';
+import 'src/styles/global.css';
 
 import { AppProps } from 'next/app';
 
