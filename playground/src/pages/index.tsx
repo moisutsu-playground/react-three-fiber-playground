@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import { NextPage } from 'next';
 
-import Layout from '../components/Layout';
-import Cube from '../components/Cube';
+import Layout from 'src/components/Layout';
+import Cube from 'src/components/Cube';
 
 import { Canvas } from 'react-three-fiber';
 
-const IndexPage = () => (
+const IndexPage: NextPage = () => (
   <Layout title='react-three-fiber Playground'>
     <h1>Hello react-three-fiber Playground!</h1>
     <p>
