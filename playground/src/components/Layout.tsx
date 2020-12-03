@@ -24,7 +24,7 @@ const Layout = ({ children, title }: Props) => (
     {children}
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>© 2020 moisutsu</span>
     </footer>
   </div>
 )
