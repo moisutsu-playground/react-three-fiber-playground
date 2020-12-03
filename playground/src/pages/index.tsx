@@ -7,7 +7,7 @@ import { Canvas } from 'react-three-fiber';
 
 const IndexPage = () => (
   <Layout title='react-three-fiber Playground'>
-    <h1>Hello Next.js 👋</h1>
+    <h1>Hello react-three-fiber Playground!</h1>
     <p>
       <Link href='/about'>
         <a>About</a>
@@ -16,8 +16,7 @@ const IndexPage = () => (
     <Canvas>
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
-      <Cube position={ [1.2, 0, 0]}/>
-      <Cube position={ [-1.2, 0, 0]}/>
+      <Cube position={[0, 0, 0]} />
     </Canvas>
   </Layout>
 );
