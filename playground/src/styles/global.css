@@ -1,3 +1,7 @@
+header {
+  border-bottom: solid 1px black;
+}
+
 footer {
   position: fixed;
   left: 0;

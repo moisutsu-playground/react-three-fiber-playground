@@ -20,6 +20,7 @@ const Layout: React.FCX = ({ children, title }: Props) => (
           <a>Home</a>
         </Link>{' '}
       </nav>
+      <h1>Hello react-three-fiber Playground!</h1>
     </header>
     {children}
     <footer>
