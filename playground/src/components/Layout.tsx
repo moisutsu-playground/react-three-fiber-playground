@@ -23,7 +23,6 @@ const Layout: React.FCX = ({ children, title }: Props) => (
     </header>
     {children}
     <footer>
-      <hr />
       <span>© 2020 moisutsu</span>
     </footer>
   </div>

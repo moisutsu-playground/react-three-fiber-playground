@@ -3,6 +3,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-bottom: 1%;
+  padding: 1%;
   text-align: center;
+  border-top: solid 1px black;
 }
