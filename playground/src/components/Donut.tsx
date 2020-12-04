@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react';
-import { MeshProps, useFrame } from 'react-three-fiber';
-import { Mesh } from 'three';
+import { useRef, useState } from "react";
+import { MeshProps, useFrame } from "react-three-fiber";
+import { Mesh } from "three";
 
 const Donut: React.FCX = (props: MeshProps) => {
   const mesh = useRef<Mesh>();
@@ -22,7 +22,7 @@ const Donut: React.FCX = (props: MeshProps) => {
       onPointerOut={() => setHover(false)}
     >
       <torusBufferGeometry args={[10, 3, 16, 100]} />
-      <meshStandardMaterial color={hovered ? 'hotpink' : 'red'} />
+      <meshStandardMaterial color={hovered ? "hotpink" : "red"} />
     </mesh>
   );
 };

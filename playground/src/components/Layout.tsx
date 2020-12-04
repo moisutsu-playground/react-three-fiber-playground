@@ -1,6 +1,6 @@
-import React, { ReactNode } from 'react';
-import Link from 'next/link';
-import Head from 'next/head';
+import React, { ReactNode } from "react";
+import Link from "next/link";
+import Head from "next/head";
 
 type Props = {
   children?: ReactNode;
@@ -11,14 +11,14 @@ const Layout: React.FCX = ({ children, title }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
       <nav>
-        <Link href='/'>
+        <Link href="/">
           <a>Home</a>
-        </Link>{' '}
+        </Link>{" "}
       </nav>
       <h1>Hello react-three-fiber Playground!</h1>
     </header>
