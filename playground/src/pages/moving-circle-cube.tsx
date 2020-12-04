@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 
-import MovingCube from "src/components/MovingCube";
+import MovingCircleCube from "src/components/MovingCircleCube";
 
 import { Canvas } from "react-three-fiber";
 
@@ -8,9 +8,7 @@ const MovingCubePage: NextPage = () => (
   <>
     <Canvas style={{ height: "70vh", width: "100%" }}>
       <pointLight position={[10, 10, 10]} />
-      <MovingCube position={[-7, 0, -5]} />
-      <MovingCube position={[-5, -1, 2]} />
-      <MovingCube position={[-1, 1, 0]} />
+      <MovingCircleCube position={[0, 0, 0]} />
     </Canvas>
   </>
 );
