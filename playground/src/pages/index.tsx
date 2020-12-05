@@ -17,6 +17,12 @@ const IndexPage: NextPage = () => (
       <Link href="/moving-circle-cube">
         <a>MovingCircleCube</a>
       </Link>
+      <Link href="/accelerating-sphere">
+        <a>AcceleratingSphere</a>
+      </Link>
+      <Link href="/parabola">
+        <a>Parabola</a>
+      </Link>
     </p>
     <Canvas style={{ height: "70vh", width: "100%" }}>
       <ambientLight />
